@@ -1,0 +1,11 @@
+{
+  "name": "Code-Review-Automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Talhaanwerr/Code-Review-Automation.git",
+  "author": "Talhaanwarrr <157596733+Talhaanwarrr@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "openai": "^4.73.1"
+  }
+}
