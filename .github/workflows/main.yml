@@ -24,4 +24,4 @@ jobs:
       env:
         OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       run: |
-        node scripts/code-review.js
+        node code-review.js
