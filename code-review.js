@@ -23,7 +23,6 @@ async function reviewCode(filePath) {
 }
 
 function getAllFiles(dir, fileList = []) {
-  dir = `.${dir}`;
   fs.readdirSync(dir).forEach((file) => {
     const filePath = path.join(dir, file);
     if (fs.statSync(filePath).isDirectory()) {
